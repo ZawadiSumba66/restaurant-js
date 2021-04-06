@@ -1,1 +1,4 @@
-console.log("here we are")
+import {navbar,showcase} from './home.js'
+import './style.css';
+navbar()
+showcase()

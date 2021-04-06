@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.nav-bar {
+  background-color: hsl(0, 100%, 12%);
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar button {
+  background-color: hsl(0, 100%, 12%);
+  border: none;
+  font-size: 2rem;
+}
+
+.showcase {
+  width: 100%;
+  height: 100vh;
+  box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+  padding: 5rem 4rem;
+}
+
+.showcase p{
+    width: 50%;
+    color: white;
+}
