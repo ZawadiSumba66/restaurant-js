@@ -20,11 +20,12 @@ const showcase = () => {
   main.classList.add('showcase')
   const heading = document.createElement('h1')
   heading.classList.add('head')
-  heading.textContent="JAVAHOUSE"
+  heading.textContent='JAVAHOUSE'
   const showcaseContent = document.createElement('p')
   showcaseContent.textContent = "Come and experience exquisite delicacies at JAVA HOUSE at fantastic prices. Available for pickup at branches or deliveries from Jumia food, Glovo and Uber Eats"
   const offerButton = document.createElement('button')
-  offerButton.textContent ='Special offers'
+  offerButton.classList.add('btn','btn-danger', 'font-weight-bold')
+  offerButton.textContent ='ORDER HERE'
   heading.style.color ="white"
   main.style.background = `url(${burger})`;
   main.style.backgroundRepeat = 'no-repeat';
@@ -32,7 +33,23 @@ const showcase = () => {
   main.appendChild(heading)
   main.appendChild(showcaseContent)
   main.appendChild(offerButton)
+  const tabs = document.createElement('div')
+  tabs.classList.add('tabs','d-flex','justify-content-between', 'container')
+  const menu = document.createElement('div')
+  menu.classList.add('menu')
+  menu.textContent ="Menu"
+  const about = document.createElement('div')
+  about.classList.add('about')
+  about.textContent ="About"
+  const contact = document.createElement('div')
+  contact.classList.add('contact')
+  contact.textContent ="Contact"
+  tabs.appendChild(menu)
+  tabs.appendChild(about)
+  tabs.appendChild(contact)
   content.appendChild(main);
+  content.appendChild(tabs)
+ 
 }
 
 export {navbar, showcase}
