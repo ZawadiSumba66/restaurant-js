@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-[live-version]()
+[live-version](https://zawadisumba66.github.io/restaurant-js/)
 
 ## Getting Started
 
