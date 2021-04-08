@@ -1,17 +1,22 @@
-const content = document.querySelector('.tab-content')
-const menu = (text) =>{
-   
-    const menuContent = document.createElement('span')
-    menuContent.classList.add('d-flex','justify-content-start')
-    menuContent.textContent = text
-    // return menuContent
-}
-// const listOne = menu('Burger..............700')
-// const listTwo = menu('Burger..............700')
-// const listThree = menu('Burger..............700')
-// const listFour = menu('Burger..............700')
+const menuList = (text) => ({ text });
 
-// const wrapper= document.createElement('div')
-// wrapper.innerHTML += listOne + listTwo + listThree + listFour
-// content.appendChild(wrapper)
-export default menu 
+const listOne = menuList('Burger..............KSH. 700');
+const listTwo = menuList('Kiwi Mocktail..............KSH. 400');
+const listThree = menuList('Taandori chicken wrap..............KSH. 600');
+const listFour = menuList('Java Icecream..............KSH. 250');
+const listFive = menuList('Java Granola bars ..............KSH. 200');
+const listSix = menuList('Coffe and bakery combo..............KSH 400');
+const listSeven = menuList('1/2 chicken+chips+soda..............ksh. 1000');
+
+
+const wrapper = document.createElement('div');
+wrapper.classList.add('wrapper');
+wrapper.innerText += listOne.text + listTwo.text + listThree.text;
+wrapper.innerText += listFour.text + listFive.text + listSix.text + listSeven.text;
+const menu = () => {
+  const tabContent = document.querySelector('.tab-content');
+
+  tabContent.appendChild(wrapper);
+};
+
+export default menu;
