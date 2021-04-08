@@ -33,23 +33,28 @@ const showcase = () => {
   main.appendChild(heading)
   main.appendChild(showcaseContent)
   main.appendChild(offerButton)
+  content.appendChild(main);
+}
+const tabsToggle = () =>{
   const tabs = document.createElement('div')
-  tabs.classList.add('tabs','d-flex','justify-content-between', 'container')
+  tabs.classList.add('tabs','d-flex','justify-content-between', 'mx-auto', 'w-50')
   const menu = document.createElement('div')
-  menu.classList.add('menu')
-  menu.textContent ="Menu"
+  menu.classList.add('tab','show')
+  menu.innerHTML ="Menu"
   const about = document.createElement('div')
-  about.classList.add('about')
-  about.textContent ="About"
+  about.classList.add('tab')
+  about.innerHTML ="About"
   const contact = document.createElement('div')
-  contact.classList.add('contact')
-  contact.textContent ="Contact"
+  contact.classList.add('tab')
+  contact.innerHTML ="Contact"
+  const tabContent = document.createElement('div')
+  tabContent.classList.add('tab-content','mx-auto','w-50')
   tabs.appendChild(menu)
   tabs.appendChild(about)
   tabs.appendChild(contact)
-  content.appendChild(main);
   content.appendChild(tabs)
- 
+  content.appendChild(tabContent)
+  
 }
 
-export {navbar, showcase}
+export {navbar,showcase,tabsToggle}

@@ -1,17 +1,15 @@
-const content = document.querySelector('#content')
-const menu = () =>{
-    const menuWrapper = document.createElement('div')
+const tabContent = document.querySelector('.tab-content')
+const menu = (text) =>{
     const menuContent = document.createElement('span')
-    menuWrapper.classList.add('text-center')
-    menuContent.textContent = 'Burger..............700'
-    menuWrapper.appendChild(menuContent)
-    content.appendChild(menuWrapper)
+    menuContent.classList.add('d-flex','justify-content-start')
+    menuContent.textContent = text
 }
-// const listOne = menu('Burger..............700')
-// const listTwo = menu('Burger..............700')
-// const listThree = menu('Burger..............700')
-// const listFour = menu('Burger..............700')
+const listOne = menu('Burger..............700')
+const listTwo = menu('Burger..............700')
+const listThree = menu('Burger..............700')
+const listFour = menu('Burger..............700')
 
-// const wrapper= document.createElement('div')
-// wrapper.innerHTML += listOne + listTwo + listThree+listFour
-export {menu} 
+const wrapper= document.createElement('div')
+wrapper.innerHTML += listOne + listTwo + listThree+listFour
+tabContent.appeendChild(wrapper)
+export default menu 

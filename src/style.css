@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
+  height: 150vh;
 }
 
 .nav-bar {
@@ -19,7 +20,7 @@ body {
 
 .showcase {
   width: 100%;
-  height: 90vh;
+  height: 80vh;
   box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
   padding: 5rem 4rem;
 }
@@ -28,3 +29,15 @@ body {
     width: 50%;
     color: white;
 }
+
+.tab {
+  cursor: pointer;
+}
+/* .tab-content
+ {
+  display: none;
+} */
+
+/* .show {
+  display: block !important;
+} */
