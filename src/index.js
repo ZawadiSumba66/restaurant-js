@@ -7,6 +7,7 @@ main.navbar()
 main.showcase()  
 main.tabsToggle()
 menu();
+main.footer()
 const tabContent = document.querySelector('.tab-content');
 const tabItem = document.querySelectorAll('.tab')
 const tabDetails = [menu,about,contact]

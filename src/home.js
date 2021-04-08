@@ -38,13 +38,13 @@ const showcase = () => {
 const tabsToggle = () =>{
   const tabs = document.createElement('div')
   tabs.classList.add('tabs','d-flex','justify-content-between', 'mx-auto', 'w-50')
-  const menu = document.createElement('div')
+  const menu = document.createElement('h2')
   menu.classList.add('tab','show')
   menu.innerHTML ="Menu"
-  const about = document.createElement('div')
+  const about = document.createElement('h2')
   about.classList.add('tab')
   about.innerHTML ="About"
-  const contact = document.createElement('div')
+  const contact = document.createElement('h2')
   contact.classList.add('tab')
   contact.innerHTML ="Contact"
   const tabContent = document.createElement('div')
@@ -54,7 +54,12 @@ const tabsToggle = () =>{
   tabs.appendChild(contact)
   content.appendChild(tabs)
   content.appendChild(tabContent)
-  
+}
+const footer=()=>{
+  const footer = document.createElement('div');
+  footer.classList.add('footer','text-center','py-4')
+  footer.innerHTML = 'Made with <i class="far fa-heart"></i> by Rose Sumba'
+  content.appendChild(footer)
 }
 
-export {navbar,showcase,tabsToggle}
+export {navbar,showcase,tabsToggle,footer}
