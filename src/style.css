@@ -35,7 +35,7 @@ body {
 }
 
 .tab-content {
-  height: 30vh;
+  height: 40vh;
 }
 
 .show {
@@ -56,7 +56,8 @@ body {
   color: red;
 }
 
-.wrapper {
-  display: flex;
-  flex-direction: column;
+.pizza {
+  width: 400px;
+  height: 200px;
+  border-radius: 15px 50px 30px 5px;
 }

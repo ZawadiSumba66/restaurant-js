@@ -4,7 +4,7 @@ const contact = () => {
   const social = document.createElement('div');
   social.classList.add('text-center');
   const text = document.createElement('p');
-  text.textContent = 'Reach us through:';
+  text.textContent = 'Connect with us on:';
   const details = document.createElement('div');
   details.classList.add('d-flex', 'justify-content-center', 'icons');
   const twitter = document.createElement('div');

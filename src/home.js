@@ -49,7 +49,7 @@ const tabsToggle = () => {
   contact.classList.add('tab');
   contact.innerHTML = 'Contact';
   const tabContent = document.createElement('div');
-  tabContent.classList.add('tab-content', 'mx-auto', 'w-50');
+  tabContent.classList.add('tab-content', 'mx-auto', 'w-50', 'pt-3');
   tabs.appendChild(menu);
   tabs.appendChild(about);
   tabs.appendChild(contact);
