@@ -4,7 +4,7 @@ const content = document.querySelector('#content');
 
 const navbar = () => {
   const nav = document.createElement('nav');
-  nav.classList.add('nav-bar','pb-3', 'px-5','py-3');
+  nav.classList.add('nav-bar', 'pb-3', 'px-5', 'py-3');
   const left = document.createElement('div');
   left.textContent = 'JAVAHOUSE';
   left.style.color = 'white';
