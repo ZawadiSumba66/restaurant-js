@@ -7,6 +7,10 @@
 - JavaScript
 - CSS
 
+## Screenshot
+
+![](src/assets/screenshot.png)
+
 ## Live Demo
 
 [live-version](https://zawadisumba66.github.io/restaurant-js/)

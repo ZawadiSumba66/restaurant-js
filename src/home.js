@@ -1,4 +1,4 @@
-import burger from './burger.png';
+import burger from './assets/burger.png';
 
 const content = document.querySelector('#content');
 
