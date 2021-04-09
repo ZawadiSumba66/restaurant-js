@@ -6,6 +6,7 @@
 
 - JavaScript
 - CSS
+- Bootstrap
 
 ## Screenshot
 
