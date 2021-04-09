@@ -2,12 +2,12 @@ import pizza from './assets/pizza.jpg';
 
 const menuList = (text) => ({ text });
 
-const listOne = menuList('Burger..............KSH. 700');
+const listOne = menuList('Burger.....................KSH. 700');
 const listTwo = menuList('Kiwi Mocktail..............KSH. 400');
-const listThree = menuList('Taandori chicken wrap..............KSH. 600');
-const listFour = menuList('Java Icecream..............KSH. 250');
-const listFive = menuList('Java Granola bars ..............KSH. 200');
-const listSix = menuList('Coffe and bakery combo..............KSH 400');
+const listThree = menuList('Taandori chicken wrap....KSH. 600');
+const listFour = menuList('Java Icecream.............KSH. 250');
+const listFive = menuList('Java Granola bars.........KSH. 200');
+const listSix = menuList('Coffe and bakery combo.....KSH. 400');
 
 const menuTab = document.createElement('div');
 menuTab.classList.add('d-flex');
