@@ -2,12 +2,6 @@
 # Restaurant Page
 
 > A restaurant web app where the menu ,about and contact information is displayed in a tabbed layout.
-## Built With
-
-- JavaScript
-- CSS
-- Bootstrap
-
 ## Screenshot
 
 ![](src/assets/screenshot.png)
@@ -15,6 +9,12 @@
 ## Live Demo
 
 [live-version](https://zawadisumba66.github.io/restaurant-js/)
+
+## Built With
+
+- JavaScript
+- CSS
+- Bootstrap
 
 ## Getting Started
 
