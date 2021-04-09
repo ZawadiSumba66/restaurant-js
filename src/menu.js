@@ -13,13 +13,14 @@ const menuTab = document.createElement('div');
 menuTab.classList.add('d-flex');
 const wrap = document.createElement('div');
 wrap.classList.add('mr-5');
-const wrapper = [listOne.text,listTwo.text,listThree.text,listFour.text,listFive.text,listSix.text]
+const wrapper = [listOne.text, listTwo.text,
+  listThree.text, listFour.text, listFive.text, listSix.text];
 
-wrapper.forEach(item=>{
-  const wrapAll = document.createElement('div')
-  wrapAll.innerHTML = item
-  wrap.appendChild(wrapAll)
-})
+wrapper.forEach((item) => {
+  const wrapAll = document.createElement('div');
+  wrapAll.innerHTML = item;
+  wrap.appendChild(wrapAll);
+});
 
 const myIcon = new Image();
 myIcon.classList.add('pizza');

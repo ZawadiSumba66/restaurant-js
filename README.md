@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Restaurant Page
 
-> A restaurant web app where the mwnu ,about and contact information is displayed in a tabbed layout.
+> A restaurant web app where the menu ,about and contact information is displayed in a tabbed layout.
 ## Built With
 
 - JavaScript
@@ -20,7 +20,10 @@
 - Clone the repo `https://github.com/ZawadiSumba66/restaurant-js.git`
 - cd into `restaurant-js`
 - Run `git pull origin restaurant`
-- On the terminal open up the live server, while in the `restaurant-js` directory:
+- On the terminal run:
+  - `` npm install`` to get a copy of the packages in your local environment
+  - ``npm run build`` to run webpack that will intergrate all changes made
+- Open the app in your local host server while on the `restaurant-js` directory
 
 ## Authors
 
