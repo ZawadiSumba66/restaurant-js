@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Restaurant Page
 
-> A restaurant web app where the menu ,about and contact information is displayed in a tabbed layout.
+> A restaurant web app where the menu ,about and contact information are displayed in a tabbed layout.
 ## Screenshot
 
 ![](src/assets/screenshot.png)
